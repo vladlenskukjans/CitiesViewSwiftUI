@@ -11,6 +11,7 @@
 		24D1725F29F90F35007BD68D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1725E29F90F35007BD68D /* ContentView.swift */; };
 		24D1726129F90F38007BD68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1726029F90F38007BD68D /* Assets.xcassets */; };
 		24D1726429F90F38007BD68D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1726329F90F38007BD68D /* Preview Assets.xcassets */; };
+		24D1726C29F91823007BD68D /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1726B29F91822007BD68D /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		24D1725E29F90F35007BD68D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24D1726029F90F38007BD68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D1726329F90F38007BD68D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24D1726B29F91822007BD68D /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		24D1725B29F90F35007BD68D /* CitiesViewSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				24D1726A29F917F8007BD68D /* Model */,
 				24D1725C29F90F35007BD68D /* CitiesViewSwiftUIApp.swift */,
 				24D1725E29F90F35007BD68D /* ContentView.swift */,
 				24D1726029F90F38007BD68D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				24D1726329F90F38007BD68D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24D1726A29F917F8007BD68D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24D1726B29F91822007BD68D /* CityModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				24D1725F29F90F35007BD68D /* ContentView.swift in Sources */,
 				24D1725D29F90F35007BD68D /* CitiesViewSwiftUIApp.swift in Sources */,
+				24D1726C29F91823007BD68D /* CityModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
